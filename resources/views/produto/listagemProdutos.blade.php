@@ -8,7 +8,7 @@
 
 @if(empty($produtos))
 <div class="alert alert-danger">
-	Você não tem nenhum produto cadastrado
+	Não há nenhum produto cadastrado
 </div>
 
 @else
