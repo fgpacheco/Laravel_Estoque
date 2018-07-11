@@ -8,8 +8,7 @@ services:
 
 before_script:
   - mysql -e 'CREATE DATABASE travis_test;'
-  - cp .env.travis .env
-  #- mysql -e 'create database homestead_test;'
+  - cp .env.travis .env  
   - composer self-update
   - composer install --no-interaction
   - php artisan key:generate
